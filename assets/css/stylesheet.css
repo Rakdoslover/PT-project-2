@@ -7,7 +7,7 @@
 }
 
 hr {
-    border-top: none solid #3a3a3a;
+    border-top: none #3a3a3a;
     width: 100%;
     margin: 5px 0;
 }
@@ -19,6 +19,13 @@ body {
 }
 
 /* headings and logo */
+
+
+.hero-text > hr {
+    border-top: 2px solid darkslategray;
+    width: 100%;
+    margin: 5px 0;
+}
 
 h1, h2 {
     font-family: Ubuntu, sans-serif;
@@ -87,8 +94,9 @@ header a {
     margin: 1rem;
 }
 
-.firsthead p{
-    padding: 3%;
+.hero > p{
+    margin-top: 1rem;
+    letter-spacing: 1px;
 }
 
 /* Deadlift */
@@ -98,7 +106,7 @@ header a {
 }
 
 .left-about-heading > hr{
-    border-top: 1px solid darkslategray;
+    border-top: 2px solid darkslategray;
     width: 100%;
     margin: 5px 0;
 }
@@ -129,25 +137,40 @@ header a {
 }
 
 #center-about {
-    width: 50%;
+    width: 33%;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: darkslategray;
     bottom: 0;
 }
 
+#center-about > h3{
+    text-align: center;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+#center-about > p{
+    letter-spacing: 1px;
+    text-align: center;
+    color: aliceblue;
+    margin-top: 1rem;
+}
 #rec-container{
-    width: 700px;
-    height: 450px;
-    padding-right: 30px;
+    width: 920px;
+    height: 600px;
     border-style: solid;
     border-color: darkslategray;
     border-width: 3px;
     float: right;
-    top: auto;
+    margin-right: 7rem;
+    margin-top: 1rem;
 }
 
 #rec-cover-bg{
-    background: url('../images/The-Deadlift.jpg');
+    background: url('../images/deadlift3.jpg'); no-repeat;
+    height: 600px;
+    width: 920px;
+    position: absolute;
+    margin: auto;
 }
 
 
