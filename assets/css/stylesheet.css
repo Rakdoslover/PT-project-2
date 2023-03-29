@@ -1,2 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    color: darkslategray;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: Ubuntu, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: darkslategray;
+}
+
+#logo {
+    text-align: center;
+    font-size: 280%;
+    margin-top: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-left: 30px;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #5b5151;
+}
+
+/* hero image */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image {
+    height: 700px;
+    width: 100%;
+    background: url('../images/hero-image.webp') no-repeat center center;
+    background-position: right;
+}
+
+/* Introduction */
+
+.hero-text{
+    text-align: left;
+    position: absolute;
+    left: 14rem;
+    top: 6rem;
+    width: 300px;
+}
+
+.firsthead{
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.firsthead p{
+    padding: 3%;
+}
