@@ -6,6 +6,12 @@
     border: none;
 }
 
+hr {
+    border-top: none solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
@@ -47,6 +53,9 @@ header a {
     border-bottom: 1px solid #5b5151;
 }
 
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
 /* hero image */
 
 #hero-outer {
@@ -80,4 +89,168 @@ header a {
 
 .firsthead p{
     padding: 3%;
+}
+
+/* Deadlift */
+
+#deadlift-ethos{
+    height: 700px;
+}
+
+.left-about-heading > hr{
+    border-top: 1px solid darkslategray;
+    width: 100%;
+    margin: 5px 0;
+}
+
+#left-about {
+    padding-top: 150px;
+    width: 33%;
+    float: left;
+}
+
+.left-about-heading {
+        width: 60%;
+        float: right;
+        line-height: 20px;
+        clear: both;
+        margin-bottom: 50px;
+}
+
+.left-about-heading > p{
+    margin-top: 1rem;
+    letter-spacing: 1px;
+}
+
+#right-about {
+    padding-top: 50px;
+    width: 33%;
+    float: right;
+}
+
+#center-about {
+    width: 50%;
+    margin: 0 auto;
+    background-color: aquamarine;
+    bottom: 0;
+}
+
+#rec-container{
+    width: 700px;
+    height: 450px;
+    padding-right: 30px;
+    border-style: solid;
+    border-color: darkslategray;
+    border-width: 3px;
+    float: right;
+    top: auto;
+}
+
+#rec-cover-bg{
+    background: url('../images/The-Deadlift.jpg');
+}
+
+
+/* Footer */
+
+footer{
+    height: 75px;
+    bottom: 0;
+}
+
+.contact{
+    text-align: center;
+}
+
+.contact > li {
+    display: inline;
+}
+
+.contact i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 2%;
+    color: #3a3a3a;
+}
+
+
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    #club-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-about, #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
+}
+
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #cover-text {
+        left: 0;
+    }
+
+    #club-ethos {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-about-heading, .right-about-heading {
+        width: inherit;
+    }
+
+    .left-about-heading h2, .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p, .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
+}
+
+/* For small screen sizes below 800px width */
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
 }
