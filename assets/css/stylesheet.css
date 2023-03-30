@@ -190,21 +190,51 @@ header a {
 
 /* Calf-Raise */
 
+#calf-raise-ethos{
+    height: 700px;
+}
+
 .rec-container-calf-raise{
-    width: 920px;
-    height: 518px;
+    width: 653px;
+    height: 600px;
     border-style: solid;
     border-color: darkslategray;
     border-width: 3px;
     float: right;
-    margin-right: 7rem;
-    margin-top: 1rem;
+    margin-right: 8rem;
+    margin-top: 2rem;
 }
 
 #rec-cover-calf-raise{
-    background: url('../images/') no-repeat;
+    background: url('../images/calf.raise.jpg') no-repeat;
     height: 600px;
-    width: 920px;
+    width: 653px;
+    position: absolute;
+    margin: auto;
+}
+
+
+/* Hip-Thruster */
+
+#hip-thruster-ethos{
+    height: 700px;
+}
+
+.rec-container-hip-thruster{
+    width: 1000px;
+    height: 563px;
+    border-style: solid;
+    border-color: darkslategray;
+    border-width: 3px;
+    float: right;
+    margin-right: 5rem;
+    margin-top: 5rem;
+}
+
+#rec-cover-hip-thruster{
+    background: url('../images/hip-thruster.jpg') no-repeat;
+    height: 563px;
+    width: 1000px;
     position: absolute;
     margin: auto;
 }
@@ -216,12 +246,17 @@ footer{
     bottom: 0;
 }
 
+.contact > h3 {
+    margin-top: 1rem;
+    color: darkslategray;
+}
 .contact{
     text-align: center;
 }
 
 .contact > li {
     display: inline;
+    color: darkslategray;
 }
 
 .contact i {
@@ -231,84 +266,3 @@ footer{
     color: #3a3a3a;
 }
 
-
-/* For larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 1200px) {
-    #club-ethos {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-    #welcome {
-        padding: 30px 0;
-        margin: 0;
-    }
-
-    #left-about, #right-about {
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #center-about {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #times > div {
-        width: 100%;
-        clear: both;
-        height: 150px;
-        padding: 0;
-    }
-
-    hr {
-        display: none;
-    }
-}
-
-/* For medium screen sizes from 950px wide and down */
-@media screen and (max-width: 950px) {
-
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
-
-    #cover-text {
-        left: 0;
-    }
-
-    #club-ethos {
-        width: 90%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-    .left-about-heading, .right-about-heading {
-        width: inherit;
-    }
-
-    .left-about-heading h2, .right-about-heading h2 {
-        width: 100%;
-        text-align: center;
-    }
-
-    .left-about-heading p, .right-about-heading p {
-        text-align: center;
-        padding: 0 20px;
-    }
-}
-
-/* For small screen sizes below 800px width */
-@media screen and (max-width: 800px) {
-    #photos {
-        column-count: 2;
-    }
-}
