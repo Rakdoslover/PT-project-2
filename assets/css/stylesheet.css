@@ -143,18 +143,8 @@ header a {
     bottom: 0;
 }
 
-#center-about > h3{
-    text-align: center;
-    text-transform: uppercase;
-    color: aliceblue;
-}
-#center-about > p{
-    letter-spacing: 1px;
-    text-align: center;
-    color: aliceblue;
-    margin-top: 1rem;
-}
-#rec-container{
+
+.rec-container{
     width: 920px;
     height: 600px;
     border-style: solid;
@@ -165,14 +155,59 @@ header a {
     margin-top: 1rem;
 }
 
-#rec-cover-bg{
-    background: url('../images/deadlift3.jpg'); no-repeat;
+#rec-cover-deadlift{
+    background: url('../images/deadlift3.jpg') no-repeat;
     height: 600px;
     width: 920px;
     position: absolute;
     margin: auto;
 }
 
+/* Squat */
+
+#squat-ethos{
+    height: 700px;
+}
+
+.rec-container-squat{
+    width: 920px;
+    height: 518px;
+    border-style: solid;
+    border-color: darkslategray;
+    border-width: 3px;
+    float: right;
+    margin-right: 7rem;
+    margin-top: 3rem;
+}
+
+#rec-cover-squat{
+    background: url('../images/squat\ 920.jpg') no-repeat;
+    height: 600px;
+    width: 920px;
+    position: absolute;
+    margin: auto;
+}
+
+/* Calf-Raise */
+
+.rec-container-calf-raise{
+    width: 920px;
+    height: 518px;
+    border-style: solid;
+    border-color: darkslategray;
+    border-width: 3px;
+    float: right;
+    margin-right: 7rem;
+    margin-top: 1rem;
+}
+
+#rec-cover-calf-raise{
+    background: url('../images/') no-repeat;
+    height: 600px;
+    width: 920px;
+    position: absolute;
+    margin: auto;
+}
 
 /* Footer */
 
